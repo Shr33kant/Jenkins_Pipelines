@@ -1,0 +1,12 @@
+Pipeline{
+      agent{     
+          label "Label_name of node"    #to specify the node where we want to run a job
+           }
+      stages{
+          stage("stage-1"){
+              steps{
+                 echo "Hello, this is the pipeline to run a jon on perticular node"
+                   }
+              }
+        }
+  }
